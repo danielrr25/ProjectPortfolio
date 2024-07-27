@@ -34,6 +34,7 @@
 
     --radius: 0.5rem;
   }
+  
 
   .dark {
     --background: 240 10% 3.9%;
@@ -81,5 +82,14 @@
 @layer utilities {
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
+  }
+
+  .black-gradient {
+    background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+  }
+}
+@layer utilities {
+  .text-custom-color {
+    color: #a7b3ff;
   }
 }

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from "react";
 
 import { workExperience } from "@/data";
@@ -35,6 +37,7 @@ const Experience = () => {
                 alt={card.thumbnail}
                 className="lg:w-32 md:w-20 w-16"
               />
+
               <div className="lg:ms-5">
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}

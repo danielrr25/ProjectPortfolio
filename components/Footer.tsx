@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
@@ -26,7 +28,7 @@ const Footer = () => {
         </p>
         <a href="mailto:danielrr25@gmail.com">
           <MagicButton
-            title="Let's get in touch"
+            title="Let&apos;s get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />

@@ -6,7 +6,7 @@ import { ThemeProvider } from "next-themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Daniel's Portfolio",
+  title: "Daniel&apos;s Portfolio",
   description: "Welcome to my Portfolio",
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="/dr3.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider

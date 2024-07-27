@@ -2,28 +2,28 @@
 
 "use client";
 
-import { FaLocationArrow, FaPython, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiTensorflow, SiOpencv, SiPuppeteer, SiStripe, SiFirebase } from "react-icons/si";
+// import { FaLocationArrow, FaPython, FaReact, FaNodeJs } from "react-icons/fa";
+// import { SiTensorflow, SiOpencv, SiPuppeteer, SiStripe, SiFirebase } from "react-icons/si";
 
 import { projects } from "@/data";
 import { PinContainer } from "./3d-pin";
 
 // Define the icon components
-const iconComponents = {
-  python: <FaPython />,
-  react: <FaReact />,
-  nodejs: <FaNodeJs />,
-  tensorflow: <SiTensorflow />,
-  opencv: <SiOpencv />,
-  puppeteer: <SiPuppeteer />,
-  stripe: <SiStripe />,
-  firebase: <SiFirebase />,
-};
+// const iconComponents = {
+//   python: <FaPython />,
+//   react: <FaReact />,
+//   nodejs: <FaNodeJs />,
+//   tensorflow: <SiTensorflow />,
+//   opencv: <SiOpencv />,
+//   puppeteer: <SiPuppeteer />,
+//   stripe: <SiStripe />,
+//   firebase: <SiFirebase />,
+// };
 
 // Type guard to check if the key is a valid icon key
-const isValidIconKey = (key: string): key is keyof typeof iconComponents => {
-  return key in iconComponents;
-};
+// const isValidIconKey = (key: string): key is keyof typeof iconComponents => {
+//   return key in iconComponents;
+// };
 
 const RecentProjects = () => {
   return (
@@ -33,7 +33,7 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map((item) => (
+        {projects.map((item, index) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
@@ -69,7 +69,7 @@ const RecentProjects = () => {
 
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
+                  {/* {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
@@ -79,14 +79,14 @@ const RecentProjects = () => {
                     >
                       {isValidIconKey(icon) && iconComponents[icon]}
                     </div>
-                  ))}
+                  ))} */}
                 </div>
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Please check back later 
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  {/* <FaLocationArrow className="ms-3" color="#CBACF9" /> */}
                 </div>
               </div>
             </PinContainer>

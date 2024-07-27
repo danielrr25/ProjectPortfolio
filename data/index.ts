@@ -82,7 +82,7 @@ export const navItems = [
       des: "Advanced analytical identification of industrial turbine components with 99.5% accuracy.",
       img: "/OCR.png",
       // iconLists: ["/python.svg", "/tensorflow.svg", "/yolov8.png"],
-      iconLists: ['python', 'tensorflow', 'opencv'],
+      // iconLists: ['python', 'tensorflow', 'opencv'],
       link: "https://github.com/yourusername/ocr-project",
     },
     {
@@ -91,7 +91,7 @@ export const navItems = [
       des: "A job scraping and frontend application using Puppeteer for scraping job listings and React for the frontend.",
       img: "/job-finder.png",
       // iconLists: ["/react.svg", "/puppeteer.svg", "/nodejs.svg"],
-      iconLists: ['react', 'puppeteer', 'nodejs'],
+      // iconLists: ['react', 'puppeteer', 'nodejs'],
       link: "https://github.com/yourusername/job-finder",
     },
     {
@@ -100,7 +100,7 @@ export const navItems = [
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/imaginify.png",
       // iconLists: ["/react.svg", "/tensorflow.svg", "/stripe.svg"],
-      iconLists: ['react', 'tensorflow', 'stripe'],
+      // iconLists: ['react', 'tensorflow', 'stripe'],
       link: "https://github.com/yourusername/ai-image-saas",
     },
     {
@@ -109,7 +109,7 @@ export const navItems = [
       des: "Created an event management app with features for scheduling, notifications, and user management.",
       img: "/popout.png",
       // iconLists: ["/react.svg", "/firebase.svg", "/nodejs.svg"],
-      iconLists: ['react', 'firebase', 'nodejs'],
+      // iconLists: ['react', 'firebase', 'nodejs'],
       link: "https://github.com/yourusername/event-management-app",
     },
   ];
